@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: chat
+
+  ai:
+    dashscope:
+      # 阿里百炼大模型 https://bailian.console.aliyun.com/?apiKey=1#/api-key
+      api-key: ${AI_DASHSCOPE_API_KEY}
